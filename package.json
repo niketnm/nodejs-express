@@ -4,7 +4,10 @@
   "description": "Learning Express",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start app.js",
+    "stop": "pm2 kill",
+    "restart": "pm2 restart app.js"
   },
   "repository": {
     "type": "git",
